@@ -93,13 +93,11 @@ public class SelectThemeInt {
         btndisconnect1.setBounds(33, 598, 131, 40);
         Panelgauch.add(btndisconnect1);
         btndisconnect1.addActionListener(a -> {
-            Bienvenu window = new Bienvenu();
+    
+			@SuppressWarnings("unused")
+			Bienvenu window = new Bienvenu();
+
             wn_choisetheme.setVisible(false);
-<<<<<<< HEAD
-            Bienvenu.eureka_bienvenu.setVisible(true);
-=======
-            window.eureka_bienvenu.setVisible(true);
->>>>>>> 655804eafe6eb820fab5e190af2a692e74c1b813
         });
 
         JLabel textChoisetheme = new JLabel("Choisissez un Thème ");
