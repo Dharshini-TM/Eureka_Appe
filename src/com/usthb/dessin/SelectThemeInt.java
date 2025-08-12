@@ -95,7 +95,7 @@ public class SelectThemeInt {
         btndisconnect1.addActionListener(a -> {
             Bienvenu window = new Bienvenu();
             wn_choisetheme.setVisible(false);
-            window.eureka_bienvenu.setVisible(true);
+            Bienvenu.eureka_bienvenu.setVisible(true);
         });
 
         JLabel textChoisetheme = new JLabel("Choisissez un Thème ");
